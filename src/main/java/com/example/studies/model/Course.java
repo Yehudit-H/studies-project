@@ -165,4 +165,24 @@ public class Course {
         this.studentCourses = studentCourses;
     }
 
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", courseName='" + courseName + '\'' +
+                ", courseDescription='" + courseDescription + '\'' +
+                ", hours=" + hours +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", minStudents=" + minStudents +
+                ", maxStudents=" + maxStudents +
+                ", price=" + price +
+                ", lecture=" + lecture +
+                ", createdDate=" + createdDate +
+                ", createdBy='" + createdBy + '\'' +
+                ", updatedDate=" + updatedDate +
+                ", updatedBy='" + updatedBy + '\'' +
+                ", studentCourses=" + studentCourses +
+                '}';
+    }
 }
